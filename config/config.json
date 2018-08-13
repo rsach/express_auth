@@ -1,0 +1,25 @@
+{
+  "development": {
+    "http_port": "3021",
+    "https_port": "3022",
+    "listen_http": true,
+    "listen_https": false,
+    "ssl_certificates": {},
+    "jwt_secret": "8F53229A1FD6319CC47A74B70D0D1B471969BF4CABE17CB6800ADB41E4ED22C0"
+  },
+  "test": {
+    "http_port": "3021",
+    "https_port": "3022",
+    "listen_http": true,
+    "listen_https": false,
+    "domain": "http://localhost:3021",
+    "jwt_secret": "B8647D44AF7D50E921D4E76EAFDE028F9CAA74A410C90404A54BA0D1565C17F8" 
+  },
+  "production": {
+    "http_port": "3021",
+    "https_port": "3022",
+    "listen_http": true,
+    "listen_https": false,
+    "jwt_secret": "94102CC9E409C9D881829F720C3D9F6BAD64689E87665F395F97CFE0A9C4D90F"
+  }
+}

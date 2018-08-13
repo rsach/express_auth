@@ -1,0 +1,82 @@
+{
+  "INVALID_REQUEST_DATA": {
+    "code": 1001,
+    "message": "Bad request",
+    "responseCode": 400
+  },
+  "NO_AUTH_HEADER": {
+    "code": 1003,
+    "message": "Forbidden",
+    "responseCode": 403
+  },
+  "INVALID_AUTH_HEADER": {
+    "code": 1004,
+    "message": "Invalid auth header",
+    "responseCode": 400
+  },
+  "ACCESS_TOKEN_EXPIRED": {
+    "code": 1005,
+    "message": "Token expired",
+    "responseCode": 401
+  },
+  "INVALID_ACCESS_TOKEN": {
+    "code": 1006,
+    "message": "Invalid access token",
+    "responseCode": 401
+  },
+  "ACCOUNT_NOT_ACTIVE": {
+    "code": 1007,
+    "message": "Account not active",
+    "responseCode": 401
+  },
+  "EMAIL_ADDRESS_IN_USE": {
+    "code": 1008,
+    "message": "Email address in use",
+    "responseCode": 400
+  },
+  "INVALID_CREDENTIALS": {
+    "code": 1009,
+    "message": "Wrong credentials",
+    "responseCode": 400
+  },
+  "EMAIL_NOT_VERIFIED": {
+    "code": 1010,
+    "message": "Email not verified",
+    "responseCode": 400
+  },
+  "INVALID_USER_ID": {
+    "code": 1011,
+    "message": "Invalid user id",
+    "responseCode": 400
+  },
+  "INVALID_ID": {
+    "code": 1012,
+    "message": "Invalid id",
+    "responseCode": 404
+  },
+  "INVALID_CURRENT_PASSWORD": {
+    "code": 1013,
+    "message": "Invalid current password",
+    "responseCode": 400
+  },
+  "FORBIDDEN": {
+    "code": 1016,
+    "message": "Forbidden",
+    "responseCode": 409
+  },
+  "TOKEN_ALREADY_USED": {
+    "code": 1017,
+    "message": "Link already used",
+    "responseCode": 405
+  },
+  "CONFLICT": {
+    "code": 1019,
+    "message": "Update not allowed at this stage",
+    "responseCode": 409
+  },
+  "UNSUPPORTED": {
+    "code": 1012,
+    "message": "Image file type not supported",
+    "responseCode": 409
+  }
+}

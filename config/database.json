@@ -1,0 +1,16 @@
+{
+  "development": {
+    "mongodb_uri": "mongodb://admin:thepianohasbeendrinking@localhost:27017/amtica"
+  },
+  "test": {
+    "mongodb_uri": "mongodb://useradmin:thepianohasbeendrinking@localhost:27017/amtica"
+  },
+  "production": {
+    "mongodb_uri": "mongodb://useradmin:thepianohasbeendrinking@localhost:27017/amtica"
+  }
+}
+
+
+
+
+
